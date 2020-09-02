@@ -53,11 +53,11 @@ section.cover-form{
     padding: 0 2%;
 }
 
-.bg{
+.container-bg{
     height: 500px;
     background-position: center;
     background-size: cover;
-    background-image: url("/imagens/bg-form.jpg")
+    background-image: url("imagens/bg-form.jpg")
 }
 
 .form-container{
