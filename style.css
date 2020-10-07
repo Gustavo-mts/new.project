@@ -151,16 +151,35 @@ section.chamada p{
     font-weight: normal;
 }
 
+.flex-mosaico{
+    display: flex;
+}
 
-@media screen and (max-width: 960px){
+.item-1-mosaico{
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+}
+
+.item-2-mosaico {
+    background-color: #4683AB;
+    padding: 90px 40px;
+    width: 40%;
+}
+
+.item-2-mosaico p{
+    color: white;
+}
+@media screen and (max-width: 1024px){
 
     .bg{
         height: auto;
-        padding: 40px 0;
+        padding: 80px 0;
         text-align: center;
     }
 
     .form-container{
+        text-align: left;
         height: auto;
         width: 96%;
         max-width: 400px;
@@ -169,6 +188,23 @@ section.chamada p{
     }
 }
 
+
+@media screen and (max-width: 768px){
+
+    .flex-mosaico{
+        display: block;
+    }
+
+    .item-1-mosaico{
+        padding-top: 80%;
+        width: 100%;
+    }
+
+    .item-2-mosaico{
+        text-align: justify;
+        width: 100%;
+    }
+}
 @media screen and (max-width: 510px){
 
     header{
