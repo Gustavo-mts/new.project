@@ -126,6 +126,17 @@ section.chamada{
     text-align: center;
 }
 
+.icone-seta{
+    position: absolute;
+    left: 50%;
+    bottom: -32px;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    width: 64px;
+    height: 64px;
+    background-size: 100% 100%;
+    background-image: url('imagens/arrow.png');
+}
 section.chamada div.container{
     padding: 70px 50px 0;
     background-color: #29526d;
@@ -149,6 +160,7 @@ section.chamada p{
     margin-top: 10px;
     font-size: 18px;
     font-weight: normal;
+    padding: 20px;
 }
 
 .flex-mosaico{
